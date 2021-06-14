@@ -8,12 +8,12 @@ def sumDivisibleBy(a ,k):
     sum = 0
     for i in range(len(a)):
         for j in range(len(a)):
+            if i < j:
                 sum = a[i] + a[j]
-                if i< j:
                     #print(a[i], a[j])
                     #print(sum)
-                    if (sum % k == 0):
-                         num = num +1
+                if (sum % k == 0):
+                   num = num +1
     print(num)
 
 s = sumDivisibleBy([1, 2, 3, 4, 5],3)
