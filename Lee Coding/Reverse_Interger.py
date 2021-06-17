@@ -13,6 +13,11 @@ Output: 321
 '''
 
 class Solution:
-    def reverse(self, x: int) -> int:
-        x = str(x)[::-1]
-        return x
+    def reverse(self, x: int ) -> int:
+        if x > 0:
+            x = str(x)[::-1]
+            return x
+        else:
+            x = int(str(x)[:0:-1])*(-1)
+            return x
+            
