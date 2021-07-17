@@ -3,6 +3,7 @@ def Candies(sold):
         print("Invalid Input")
     elif sold == 0 :
         print("Invalid Input")
+        print("Number of Candies Available: ", 10)
     else :
         print("Number of Candies sold: ", sold)
         print("Number of Candies Available : " , 10 - sold)
