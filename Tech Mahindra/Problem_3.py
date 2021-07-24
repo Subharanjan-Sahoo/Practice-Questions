@@ -30,16 +30,15 @@ def Diffrence(input1):
     # intr1 = int(input2)
     for i in range(len(input2)):
         j = i+1
-        #print(i)
-        #print(input2[i+1])
-       #for j in range(i+1,len(input2)):
+        
         if j != len(input2):
             sub = input2[i] - input2[j]
-           # print(sub)
+           
             if sub < 0 :
-                a = sub + a    
+                a = sub + a 
+          
             else:
-                b = sub + b
+                print('B', b)
     print(b+(-(a)))
 
 
