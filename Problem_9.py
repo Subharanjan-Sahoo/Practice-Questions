@@ -10,7 +10,7 @@ Input format
 
 First line of Input contain a single integer n
 
-Second line of input contain space separated integers, elements of array a
+Second line of input contain space separated integers, elements of number.
 
 '''
 
