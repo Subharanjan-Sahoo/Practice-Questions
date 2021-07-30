@@ -1,6 +1,7 @@
 '''
 
-Description: As a young jedi you must learn to converse with Yoda. You have found a simple rule that helps change a "normal" sentence into "Yoda talk". Take the first two words in the sentence and place them at the end. Write a program that uses this rule to change normal sentence into "Yoda talk".
+Description: As a young jedi you must learn to converse with Yoda. You have found a simple rule that helps change a "normal" sentence into "Yoda talk". 
+Take the first two words in the sentence and place them at the end. Write a program that uses this rule to change normal sentence into "Yoda talk".
 
 Input:
 
