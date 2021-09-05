@@ -29,7 +29,7 @@ NO
 '''
 
 def math(input1):
-    if int(input1) % 2 == 0:
+    if (int(input1) & (int(input1) - 1)) == 0 :#% 2 == 0:
         sumyes = 0
         print('Yes')
         for i in range(len(input1)):
