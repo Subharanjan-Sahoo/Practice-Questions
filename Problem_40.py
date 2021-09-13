@@ -59,7 +59,7 @@ def estimate(inner_wells,ext_wells):
     exe_well_cost = 12 * exe_well_sum
     
 
-    print("Total estimated cost ", exe_well_cost + inner_well_cost,"INR")
+    print("Total estimated cost : ", exe_well_cost + inner_well_cost,"INR")
         
 
 
